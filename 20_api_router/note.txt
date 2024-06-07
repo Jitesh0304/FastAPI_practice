@@ -1,0 +1,6 @@
+                ___Notes___ 
+
+There are several __init__.py files: one in each directory or subdirectory.
+This is what allows importing code from one file into another.
+For example, in app/main.py you could have a line like:
+        from app.routers import items
